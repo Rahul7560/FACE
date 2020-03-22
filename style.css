@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: gainsboro;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 6px;
+}
+.navtext{
+    margin-left: 10px;
+    color: rgb(212, 69, 16);
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.navbutton a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.linkbutton {
+    padding: 10px;
+    color: white;
+    margin-left: 5px;
+    background-color:rgb(212, 69, 16);
+    border-radius: 5%;
+    text-decoration: none;
+    
+        
+}
+.linkbutton a{
+    color: white;
+    font-size: larger;
+}
+header p{
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    text-align: center  ;  
+      
+
+}
+h1 {
+    font-size: 60px;
+    color: rgb(248, 248, 180);
+    font-weight: bolder;
+    text-align: center;}
+header{
+    background-color: black;
+    padding: 100px;
+    align-items: center;
+}
+#bio{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 30px;
+    padding: 100px;
+}
+.div1 h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(79, 61, 47);
+    margin-left: 100px;
+}
+#bio div img{
+    border-radius: 50%;
+}
+.div1 p{
+    font-size: 15px;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.resume{
+    padding: 10px;
+    font-size: 15px;
+    margin-left:100px ;
+    max-width: 160px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    background-color:rgb(212, 69, 16);
+    border-radius: 5%;
+    text-decoration: none;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+#profile{
+    background-color: black;
+}
+
+.port{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.port h2{
+    margin-top: 30px;
+    color: white;
+    font-size: xx-large;
+}
+#port3{
+    color: white;
+    margin-top: 10px;
+}
+
+.port1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    padding: 70px;
+
+}
+.port4{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(248, 248, 180);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-left: 0px;
+    max-width: 200px;
+    max-height: 200px;
+    min-height:200px ;
+    min-width: 200px;
+    border-radius: 5%;
+}
+.skill1 {
+    text-align: center
+;}
+.skillov{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+.skill2 {
+    list-style: none;
+    padding: 50px;
+}
+.skill3{
+    list-style: none;
+    padding: 50px;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: black;
+    padding: 50px;
+}
+#contacts{
+    color: white ;
+    
+}
+.foot1{
+    margin-top: 30px;
+    width: 300px;
+
+}
